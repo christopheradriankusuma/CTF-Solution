@@ -1,1 +1,1 @@
-"# CTF-Solution" 
+# CTF Solution
