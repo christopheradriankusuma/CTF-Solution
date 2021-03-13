@@ -1,5 +1,5 @@
 # Vishwa CTF 2021
-link: <a href="https://2021.vishwactf.com/challenges">Vishwa CTF 2021</a>
+link: [Vishwa CTF 2021](https://2021.vishwactf.com/challenges)
 
 # WARMUP
 ## Flag Format
