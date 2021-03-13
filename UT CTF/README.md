@@ -46,3 +46,11 @@ print(pow(A,b,p))
  
 ```
 flag: utctf{53919}
+
+# BEGINNER
+## Magic Bytes
+[file](https://utctf.live/files/3054ebb30380d6306f5c0dcd865fba03/out.txt?token=eyJ1c2VyX2lkIjo1MDQsInRlYW1faWQiOjE2NiwiZmlsZV9pZCI6NDB9.YEw6zA.rkXzBKFVt9kHmTzI0pk5rJ5YOBI)
+
+POC:
+Saat dibaca bytes nya, ternyata itu merupakan file PNG. Diubah extensionnya jadi PNG dan dibuka.
+flag: utflag{file_extensions_mean_nothing}
