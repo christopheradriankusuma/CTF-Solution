@@ -55,4 +55,5 @@ flag: utctf{53919}
 POC:
 
 Saat dibaca bytes nya, ternyata itu merupakan file PNG. Diubah extensionnya jadi PNG dan dibuka.
+
 flag: utflag{file_extensions_mean_nothing}
