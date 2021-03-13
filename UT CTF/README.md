@@ -16,6 +16,7 @@ Note: submit either the shared secret or the shared secret wrapped in utflag{}
 by balex
 ```
 POC:
+
 Whitfield **Diffie** and Martin **Hellman**. Pertukaran kunci menggunakan algoritma Diffie-Hellman. Diketahui p, g, A, B, dan melihat ukuran p yang cukup kecil, dapat dengan mudah dicari nilai a dan b, lalu menghitung secret
 ```python
 p = 69691
@@ -52,5 +53,6 @@ flag: utctf{53919}
 [file](https://utctf.live/files/3054ebb30380d6306f5c0dcd865fba03/out.txt?token=eyJ1c2VyX2lkIjo1MDQsInRlYW1faWQiOjE2NiwiZmlsZV9pZCI6NDB9.YEw6zA.rkXzBKFVt9kHmTzI0pk5rJ5YOBI)
 
 POC:
+
 Saat dibaca bytes nya, ternyata itu merupakan file PNG. Diubah extensionnya jadi PNG dan dibuka.
 flag: utflag{file_extensions_mean_nothing}
