@@ -98,6 +98,20 @@ POC:
 
 Isi form dan `utflag{thank_you_278672}`
 
+# WEB
+## Source it!
+Diberikan [website](http://web1.utctf.live:8778)
+
+POC:
+
+Saya mencoba melihat source code untuk mencoba mencari cara validasi formnya. Pada head, saya menemukan script yang memvalidasi `username = admin` dan `password = 1bea3a3d4bc3be1149a75b33fb8d82bc`. Password dienkripsi menggunakan MD5.
+
+```
+sudo hashcat -a 0 -m 0 $(echo 1bea3a3d4bc3be1149a75b33fb8d82bc) /usr/share/wordlists/rockyou.txt
+```
+
+flag: `utflag{b33n_th3r3_s0uRc3d_th4t}`
+
 # CRYPTO
 ## Small P Problems
 ```
