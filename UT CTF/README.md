@@ -93,6 +93,11 @@ for i in range(26):
 
 flag: `utflag{now_youre_playing_with_crypto}`
 
+## Half-time Survey
+POC:
+
+Isi form dan `utflag{thank_you_278672}`
+
 # CRYPTO
 ## Small P Problems
 ```
