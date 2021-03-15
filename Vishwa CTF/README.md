@@ -1,5 +1,9 @@
 # Vishwa CTF 2021
 link: [Vishwa CTF 2021](https://2021.vishwactf.com/challenges)
+* [Warmup](#WARMUP)
+* [Cryptography](#CRYPTOGRAPHY)
+* [Web](#WEB)
+* [Networking](#NETWORKING)
 
 # WARMUP
 ## Flag Format
