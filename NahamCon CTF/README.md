@@ -24,7 +24,7 @@ Tampak seperti Caesar Cipher tapi memiliki kunci.
 flag: `flag{6f980c0101c8aa361977cac06508a3de}`
 
 ## Pollex
-Some people seem to have trouble reading this, understandably so. Sorry. The flag ends in these characters: 8fe36bc00}
+Some people seem to have trouble reading this, understandably so. Sorry. The flag ends in these characters: 8fe36bc00}<br>
 Attachments: [pollex](https://ctf.nahamcon.com/files/47768d1e408e27e0a2a6afd01ed2e489/pollex?token=eyJ1c2VyX2lkIjoyNzg2LCJ0ZWFtX2lkIjpudWxsLCJmaWxlX2lkIjoxOX0.YE9XBg.RiLErua2n0vxAxUwGhmz_O8Fkt4)
 
 POC:
@@ -34,7 +34,7 @@ Saat dilihat filenya, ternyata itu file gambar. Saat dibuka, hanya ada gambar ta
 flag: `flag{65c34a1ec121a286600ddd48fe36bc00}`
 
 ## Shoelaces
-Do you double-knot your shoelaces? You gotta keep'em tied!
+Do you double-knot your shoelaces? You gotta keep'em tied!<br>
 Attachments: [shoelaces.jpg](https://ctf.nahamcon.com/files/b8fdce4df8ac178c21e5867a18f19ec0/shoelaces.jpg?token=eyJ1c2VyX2lkIjoyNzg2LCJ0ZWFtX2lkIjpudWxsLCJmaWxlX2lkIjoyNX0.YE9YMg.YowY8bnjOAbPadg1oEu9Vq5CrZA)
 
 POC:
@@ -44,7 +44,7 @@ Percobaan pertama dan berhasil `strings shoelaces.jpg | grep flag`
 flag: `flag{137288e960a3ae9b148e8a7db16a69b0}`
 
 ## esab64
-Was it a car or a cat I saw?
+Was it a car or a cat I saw?<br>
 Attachments: [esab64](https://ctf.nahamcon.com/files/9e1ff93915a5e07e8de9e79eb808c597/esab64?token=eyJ1c2VyX2lkIjoyNzg2LCJ0ZWFtX2lkIjpudWxsLCJmaWxlX2lkIjoxMn0.YE9YMg.7Cyh_A6W2Cm6hALGqOb161vQskI)
 
 POC:
@@ -62,9 +62,14 @@ Abaikan _ di akhir
 flag: `flag{fb5211b498afe87b1bd0db601117e16e}`
 
 ## Eighth Circle
-Abandon all hope, ye who enter here...
+Abandon all hope, ye who enter here...<br>
 Attachments: [eighth_circle](https://ctf.nahamcon.com/files/6e0912abf579ae0172a3e662e5f3916d/eighth_circle?token=eyJ1c2VyX2lkIjoyNzg2LCJ0ZWFtX2lkIjpudWxsLCJmaWxlX2lkIjoxMH0.YE9aig.w3iqGWxvy-WVWg5VYuUVMxTzmCg)
 
+POC:
+
+Saat searching google, saya menemukan bahwa eighth circle memiliki nama `Malbolge` yang juga kebetulan nama salah satu bahasa pemrograman. Saya menggunakan [Malbolge - interpreter online](http://malbolge.doleczek.pl/)
+
+flag: `flag{bf201f669b8c4adf8b91f09165ec8c5c}`
 
 # FORENSIC
 ## Parseltongue
