@@ -39,7 +39,7 @@ Attachments: [shoelaces.jpg](https://ctf.nahamcon.com/files/b8fdce4df8ac178c21e5
 
 POC:
 
-ercobaan per`strings shoelaces.jpg | grep flag`
+Percobaan pertama dan berhasil `strings shoelaces.jpg | grep flag`
 
 flag: `flag{137288e960a3ae9b148e8a7db16a69b0}`
 
@@ -60,6 +60,11 @@ print(base64.b64decode("mxWYntnZiVjMxEjY0kDOhZWZ4cjYxIGZwQmY2ATMxEzNlFjNl13X"[::
 ```
 Abaikan _ di akhir
 flag: `flag{fb5211b498afe87b1bd0db601117e16e}`
+
+## Eighth Circle
+Abandon all hope, ye who enter here...
+Attachments: [eighth_circle](https://ctf.nahamcon.com/files/6e0912abf579ae0172a3e662e5f3916d/eighth_circle?token=eyJ1c2VyX2lkIjoyNzg2LCJ0ZWFtX2lkIjpudWxsLCJmaWxlX2lkIjoxMH0.YE9aig.w3iqGWxvy-WVWg5VYuUVMxTzmCg)
+
 
 # FORENSIC
 ## Parseltongue
