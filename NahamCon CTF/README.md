@@ -1,6 +1,9 @@
 # NahamCon CTF
 link: [NahamCon CTF](https://ctf.nahamcon.com/challenges)
 * [WARMUPS](#WARMUPS)
+* [Forensic](#FORENSIC)
+* [Miscellanous](#MISCELLANOUS)
+* [NahamCon](#NAHAMCON)
 
 # WARMUPS
 ## Read The Rules
