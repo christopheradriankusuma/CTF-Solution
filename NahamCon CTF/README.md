@@ -96,3 +96,61 @@ POC:
 Diberikan file C#. Karena saya tidak bisa menjalankannya, saya ubah ke python. Dari satu-satunya fungsi yang ada dan 2 parameter yang disediakan, saya jalankan dan mendapat teks yang panjang, saya simpan dengan nama `alphabet`. Lalu `strings alphabet | grep flag`.
 
 flag: `flag{b6cfb6656ea0ac92849a06ead582456c}`
+
+# NAHAMCON
+## HTB Village
+Come join the party at the [HTB Village](https://discord.gg/Na9mxe7YGW), and track down a flag!<br>
+POC:<br>
+Deskripsi channel htb-village di discord<br>
+flag: `flag{437f3e5ecdd39a29d695e2e31603f5b4}`
+
+## INE Career Corner
+Come join the party at the [INE Career Corner](https://discord.gg/eQ4jGmkCaf), and track down a flag!<br>
+POC:<br>
+Deskripsi channel ine-career-corner di discord<br>
+flag: `flag{e713de181584836c9499811f13cb0e62}`
+
+## IoT Village
+Come join the party at the [IoT Village](https://discord.gg/pjzuF3zNtX), and track down a flag!<br>
+POC:<br>
+Deskripsi channel iot-village di discord<br>
+flag: `flag{1ff473816ef21857cc62f838e8a33fc7}`
+
+## Live Recon Village
+Come join the party at the [Live Recon Village](https://discord.gg/fTPYrHK8HX), and track down a flag!<br>
+POC:<br>
+Deskripsi channel live-recon-village di discord<br>
+flag: `flag{2795da9d0d2055d259a3fb4d6b78629c}`
+
+## Red Team Village
+Come join the party at the [Red Team Village](https://discord.gg/vaDYxKsknW), and track down a flag!<br>
+POC:<br>
+Deskripsi channel red-team-village di discord<br>
+flag: `flag{fd59547d85953cac9dd5f378daed2157}`
+
+## UHC-BR
+Come join the party at the [UHC-BR](https://discord.gg/C6wvwE8RMX), and track down a flag!<br>
+POC:<br>
+Deskripsi channel uhc-br di discord<br>
+flag: `flag{120c45c7b99d8cba1567441f5bef599e}`
+
+## The Mission
+Enter the flag you find on [The Mission](https://ctf.nahamcon.com/mission) page to open the gates and unlock challenges for The Mission. Please note, your participation in "The Mission" serves as permission for us to share your e-mail address with our sponsors, for potential career opportunities and private invitations to vulnerability disclosure and bug bounty programs.
+
+After solving this challenge, you may need to refresh the page to see the newly unlocked challenges.<br>
+POC:<br>
+Melihat source code<br>
+flag: `flag{48e117a1464c3202714dc9a350533a59}`
+
+## #NahamCon2021
+#NahamCon2021 #awesome #cool #winning! Did you know that the hashtag has another much cooler name, called the "octothorp?"
+
+Perform some online reconnaissance to track down a flag for #NahamCon2021!
+
+## Merch Store
+Check out our [Merch Store](https://nahamcon.com/merch)! A portion of the proceeds go to support Women in CyberSecurity @WiCySorg!
+
+Perform some online reconnaissance to track down a flag on the merch store!<br>
+POC:<br>
+Melihat source code<br>
+flag: `flag{fafc10617631126361c693a2a3fce5a7}`
