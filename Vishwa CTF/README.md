@@ -10,7 +10,7 @@ link: [Vishwa CTF 2021](https://2021.vishwactf.com/challenges)
 Submit `vishwaCTF{welcome_to_vishwaCTF}`
 
 ## Discord-bot
-POC:
+Solution:
 
 Chat bot discord yang disediakan dengan `$flag` dan akan diberikan flag `vishwaCTF{d15c0rd_5p1ll3d_th3_b34n5}`
 
@@ -19,7 +19,7 @@ Chat bot discord yang disediakan dengan `$flag` dan akan diberikan flag `vishwaC
 Accidentally frozen, pizza-deliverer Fry wakes up 1,000 years in the future and finds himself surrounded by cyclops,robots,flying cars and crazy scientists. He is given a note but he cant understand it. Can you help him??
 [note.png](https://2021.vishwactf.com/files/161b066e66a6f4187a96d52c7bdc85b1/note.png?token=eyJ1c2VyX2lkIjozNjUsInRlYW1faWQiOjE2MywiZmlsZV9pZCI6MjN9.YE2S2Q.YhsUpuzNbfV12YAjMge2P3o4SUQ)
 
-POC:
+Solution:
 
 Setelah searching dengan keyword pizza-deliverer Fry, saya menemukan satu keyword yang menarik, Futurama. Saya searching lagi Futurama language dan menemukan gambar substitusi alphabet dengan gambar yang diberikan.
 
@@ -29,7 +29,7 @@ flag: `vishwaCTF{WEARENOTALONE}`
 ## bot not not bot
 Ain't Much, But It's Honest Work!!! [https://bot-not-not-bot.vishwactf.com/](https://bot-not-not-bot.vishwactf.com/)
 
-POC:
+Solution:
 
 Saat dibuka, akan ada banyak link ke halaman lain dengan format `page{1-500}.html`. Saat membuka halaman pertama, akan terlihat kata `Useless`. Saya menggunakan script untuk melihat halaman yang tidak ada kata `Useless`
 ```python
@@ -65,7 +65,7 @@ flag: `vishwaCTF{r0bot_15_t00_0P}`
 ## Commenting is the key
 Silicom tried communicating with Castlene and then they made some comments about it... try to find the flag through this file. [https://2021.vishwactf.com/files/1a829a53e9c69514485a0154cdbf7779/question.pcapng?token=eyJ1c2VyX2lkIjozNjUsInRlYW1faWQiOjE2MywiZmlsZV9pZCI6MjB9.YE2ZAw.BhNG3eCYJVcIm_rZN7CD9zIGMO0](https://2021.vishwactf.com/files/1a829a53e9c69514485a0154cdbf7779/question.pcapng?token=eyJ1c2VyX2lkIjozNjUsInRlYW1faWQiOjE2MywiZmlsZV9pZCI6MjB9.YE2ZAw.BhNG3eCYJVcIm_rZN7CD9zIGMO0)
 
-POC:
+Solution:
 
 Dibuka dengan wireshark dan cari comment, ditemukan `5 Frame: flag==packets_are_editable`
 
