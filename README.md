@@ -1,2 +1,2 @@
 # CTF Solution
-[Da Vinci CTF](../../Da\_Vinci\_CTF)
+[Da Vinci CTF](../../tree/main/Da%20Vinci%20CTF)
