@@ -3,12 +3,12 @@ link: [UT CTF](https://utctf.live/challenges)
 
 # BEGINNER
 ## Sanity Check
-POC:
+Solution:
 
 Ada di discord UTCTF 2021 bagian announcement. Flag: `utflag{welcome_to_utctf}`
 
 ## Run-ELF
-POC:
+Solution:
 
 Diberikan file `run` untuk dijalankan.
 ```
@@ -18,7 +18,7 @@ chmod +x run
 flag: `utflag{run_run_binary_9312854}`
 
 ## Stringy Things
-POC:
+Solution:
 
 Diberikan file `calc`, diminta mencari string.
 ```
@@ -27,12 +27,12 @@ strings calc | grep utflag
 flag: `utflag{strings_is_op}`
 
 ## HTML
-POC:
+Solution:
 
 Mencari flag di website. Saya coba melihat source codenya dan menemukan flagnya. flag: `utflag{you_found_me_0123959}`
 
 ## Magic Bytes
-POC:
+Solution:
 
 Saat dibaca bytes nya, ternyata itu merupakan file PNG. Diubah extensionnya jadi PNG dan dibuka.
 
@@ -41,7 +41,7 @@ flag: `utflag{file_extensions_mean_nothing}`
 ## Sizzling Bacon
 Diberikan string `sSsSSsSSssSSsSsSsSssSSSSSSSssS{SSSsSsSSSsSsSSSsSSsSSssssssSSSSSSSsSSSSSSSSsSSsssSSssSsSSSsSSsSSSSssssSSsssSSsSSsSSSs}`
 
-POC:
+Solution:
 
 String yang diberikan dienkripsi dengan baconian cipher. Dengan `s=1` dan `S=0`, lalu didekripsi
 ```python
@@ -61,7 +61,7 @@ flag: `utflag{crispybaconcipher}`
 ## Cipher Gauntlet
 Diberikan file berisi angka 0 dan 1 yang dienkripsi dengan beberapa enkripsi berbeda.
 
-POC:
+Solution:
 
 ```python
 with open("secret.txt", "r") as f:
@@ -94,7 +94,7 @@ for i in range(26):
 flag: `utflag{now_youre_playing_with_crypto}`
 
 ## Half-time Survey
-POC:
+Solution:
 
 Isi form dan `utflag{thank_you_278672}`
 
@@ -102,7 +102,7 @@ Isi form dan `utflag{thank_you_278672}`
 ## Source it!
 Diberikan [website](http://web1.utctf.live:8778)
 
-POC:
+Solution:
 
 Saya mencoba melihat source code untuk mencoba mencari cara validasi formnya. Pada head, saya menemukan script yang memvalidasi `username = admin` dan `password = 1bea3a3d4bc3be1149a75b33fb8d82bc`. Password dienkripsi menggunakan MD5.
 
@@ -126,7 +126,7 @@ Note: submit either the shared secret or the shared secret wrapped in utflag{}
 
 by balex
 ```
-POC:
+Solution:
 
 Whitfield **Diffie** and Martin **Hellman**. Pertukaran kunci menggunakan algoritma Diffie-Hellman. Diketahui p, g, A, B, dan melihat ukuran p yang cukup kecil, dapat dengan mudah dicari nilai a dan b, lalu menghitung secret
 ```python
