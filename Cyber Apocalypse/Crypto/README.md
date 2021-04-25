@@ -48,7 +48,7 @@ Diberikan 2 file, satu file python untuk enkripsi, satu file hasil enkripsi. Enk
 test = b"No right of private conversation was enumerated in the Constitution. I don't suppose it occurred to anyone at the time that it could be prevented."
 print(encrypt(test))
 ```
-Flagnya dapat ditemukan dengan `xor(flag, test, test_encrypt), karena AES CTR merupakan stream cipher.
+Flagnya dapat ditemukan dengan `xor(flag, test, test_encrypt)`, karena AES CTR merupakan stream cipher.
 
 ```python
 from pwn import xor
